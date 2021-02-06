@@ -1,0 +1,45 @@
+body {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.row0, .row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#stats, #search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#stats p {
+    margin: 0 10px;
+}
+
+.row0 {
+    padding: 0 30px;
+}
+
+p {
+    margin: 0;
+}
+
+.title {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.detail {
+    margin-top: 1rem;
+}
+
+.detail img {
+    width: auto;
+    height: 100px;
+    border: 1px solid black;
+}
